@@ -12,7 +12,7 @@ function logShout(string) {
 
   logShout('hello');
 
-  expect (spy).toHaveBeenCalledWith('HELLO');
+  return (spy).toHaveBeenCalledWith('HELLO');
 
   console.log.restore();
 }
